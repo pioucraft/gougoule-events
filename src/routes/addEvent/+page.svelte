@@ -2,7 +2,7 @@
     import { addEvent } from "./addEvent";
 
     let name = ""
-    let date = new Date()
+    let date = ""
     let days = 1
 </script>
 

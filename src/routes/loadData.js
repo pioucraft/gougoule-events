@@ -8,6 +8,6 @@ export function loadEvents() {
         return;
     }
 
-    events.set(storedEvents)
+    events.set(JSON.parse(storedEvents).sort((a, b) => a.start > b.start))
 
 }
